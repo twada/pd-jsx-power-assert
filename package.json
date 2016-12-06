@@ -1,6 +1,6 @@
 {
-  "name": "repro",
-  "description": "reproduction case",
+  "name": "pd-jsx-power-assert",
+  "description": "JSX and power-assert problem determination case",
   "version": "1.0.0",
   "author": {
     "name": "Takuto Wada",
