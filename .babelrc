@@ -1,0 +1,10 @@
+{
+  "presets": ["react"],
+  "env": {
+    "development": {
+      "plugins": [
+        ["babel-plugin-espower", { "embedAst": true }]
+      ]
+    }
+  }
+}

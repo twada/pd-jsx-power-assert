@@ -1,0 +1,32 @@
+{
+  "name": "repro",
+  "description": "reproduction case",
+  "version": "1.0.0",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "https://github.com/twada"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-espower": "^2.3.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "enzyme": "^2.6.0",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2",
+    "react-addons-test-utils": "^15.4.1"
+  },
+  "keywords": [
+    "babel",
+    "power-assert",
+    "react"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require babel-register test/**/*.jsx"
+  }
+}
